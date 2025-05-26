@@ -1,0 +1,14 @@
+name: gtb-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - jupyter
+      - geemap
+      - earthengine-api
+      - python-dotenv
+      - numpy
+      - pandas
+      - rasterio
