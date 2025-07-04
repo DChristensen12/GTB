@@ -17,11 +17,15 @@ The goal is to build a lightweight, interpretable, and visually compelling pipel
 
 (Currently a work in progress — interactive visualizations and notebooks will be released in stages.)
 
+   1.) Urban Green & Blue Infrastructure Index
+       Maps neighborhood-level access to ecologically beneficial resources (trees, parks, water bodies) and evaluates their distribution against population density and demographic equity indicators.
 
-### API Key Setup
+   2.) Urban Heat & Pollution Hotspots
+       Identifies regions most exposed to land surface temperature anomalies, PM2.5, ozone, and impervious surface expansion, with overlays of population and income to highlight climate injustice.
 
-This project uses external APIs. To use them:
+   3.) Sea Level Rise Vulnerability in California
+       Visualizes coastal flood risks under multiple sea level rise scenarios using elevation models and shoreline overtopping maps, layered with infrastructure, schools, and protected lands.
 
-1. Copy the example file:
-   ```bash
-   cp .env.example .env
+The goal is to build a lightweight, interpretable, and visually compelling pipeline that combines geospatial data science with sustainability insight—highlighting both the power of open data and the importance of making environmental risks transparent. Through Green to Blue, I aim to blend technical skill with environmental awareness in a way that informs action and deepens understanding.
+
+(Currently a work in progress — interactive visualizations and notebooks will be released in stages.)
