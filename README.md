@@ -105,6 +105,6 @@ git push origin main
 
 ### Final Notes
 
-Green to Blue is still in development. I’ll be releasing cleaned datasets, Jupyter notebooks, and interactive dashboards in stages. The ultimate goal is to make environmental data more approachable—something you can visualize, reason about, and use to drive informed decisions around equity and resilience.
+Green to Blue is still in development. I’ll be releasing cleaned datasets, Jupyter notebooks, and interactive dashboards (via Tableau) in stages. The ultimate goal is to make environmental data more approachable—something you can visualize, reason about, and use to drive informed decisions around equity and resilience.
 
 This project blends my background in chemistry, geospatial analysis, and data science to explore how technical insight can support sustainable futures. Thanks for following along.
