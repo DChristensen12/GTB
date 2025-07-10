@@ -2,7 +2,6 @@
 # This conda environment supports data ingestion scripts that fetch
 # preliminary datasets (heat, pollution, demographics, temperature,
 # elevation, land cover, air quality, sea level rise, etc.)
-# Required packages include APIs, file handling, and geospatial tools.
 
 name: gtb-env
 channels:
@@ -15,5 +14,13 @@ dependencies:
   - requests
   - python-dotenv
   - mercantile
+  - geopandas
+  - fiona
+  - shapely
+  - pyproj
+  - pyogrio
+  - rasterio
+  - osmnx
+  - tqdm
   - pip:
-      - tqdm
+      - tqdm  # ensure the latest tqdm if conda-forge’s is out of date
