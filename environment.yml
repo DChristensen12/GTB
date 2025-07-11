@@ -12,15 +12,15 @@ dependencies:
   - python=3.11
   - pip
   - requests
-  - python-dotenv
-  - mercantile
-  - geopandas
-  - fiona
-  - shapely
-  - pyproj
-  - pyogrio
-  - rasterio
-  - osmnx
-  - tqdm
+  - python-dotenv     # For loading .env credentials
+  - geopandas         # Core geospatial data handling
+  - fiona             # Required backend for reading/writing vector data
+  - shapely           # Geometry operations (used by geopandas)
+  - pyproj            # Coordinate reference systems (CRS)
+  - pyogrio           # Fast vector I/O for geopandas
+  - rasterio          # Raster data handling (e.g., NDVI tiles)
+  - osmnx             # OpenStreetMap downloads (used for parks/infrastructure)
+  - mercantile        # Tile coordinate conversion for satellite tiles
+  - tqdm              # For progress bars
   - pip:
-      - tqdm  # ensure the latest tqdm if conda-forge’s is out of date
+      - tqdm          # Ensures latest version from PyPI if needed
